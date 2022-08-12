@@ -36,7 +36,6 @@ function output(input) {
       array.push(input[i])
     }
   } newString = array.join(" ")
-  // console.log(array);
   console.log(newString);
   for (let i = 0; i < 3; i++) {
     let inputTwo = []
