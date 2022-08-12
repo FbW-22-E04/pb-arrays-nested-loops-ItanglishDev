@@ -35,13 +35,12 @@ function output(input) {
     for (let j = 0; j < 3; j++) {
       array.push(input[i])
     }
-    // const newArray = array.replace(",", " ")
-  } newString = array.toString()
+  } newString = array.join(" ")
   // console.log(array);
   console.log(newString);
   for (let i = 0; i < 3; i++) {
     secondArray.push(input)
-  } let secondString = secondArray.toString()
+  } let secondString = secondArray.join(" ")
   console.log(secondString);
 }
 output([0, 1, 2, 3, 4]);
