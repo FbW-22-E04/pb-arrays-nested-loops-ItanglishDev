@@ -39,7 +39,9 @@ function output(input) {
   // console.log(array);
   console.log(newString);
   for (let i = 0; i < 3; i++) {
-    secondArray.push(input)
+    let inputTwo = []
+    inputTwo = input.join(" ")
+    secondArray.push(inputTwo)
   } let secondString = secondArray.join(" ")
   console.log(secondString);
 }
