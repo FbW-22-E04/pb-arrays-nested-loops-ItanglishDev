@@ -45,3 +45,23 @@ function output(input) {
   console.log(secondString);
 }
 output([0, 1, 2, 3, 4]);
+
+
+// function outputTwo(input) {
+//   const array = []
+//   let secondArray = []
+//   let inputTwo = []
+//   for (let i = 1; i < input.length; i++) {
+//     for (let j = 0; j < 3; j++) {
+//       array.push(input[i])
+//       inputTwo = input.join(" ")
+//       secondArray.push(inputTwo[j])
+//     }
+//   } newString = array.join(" ")
+//   let secondString = secondArray.join(" ")
+//   // for (let i = 0; i < 3; i++) {
+//   // }
+//   console.log(newString);
+//   console.log(secondString);
+// }
+// outputTwo([0, 1, 2, 3, 4]);
