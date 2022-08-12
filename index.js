@@ -21,3 +21,27 @@ for (let i = 0; i < ARR.length; i++) {
     console.log(ARR[i][j]);
   }
 }
+
+// EX 3
+
+// 1 1 1 2 2 2 3 3 3 4 4 4
+
+// 0 1 2 3 4 0 1 2 3 4 0 1 2 3 4
+
+function output(input) {
+  const array = []
+  let secondArray = []
+  for (let i = 1; i < input.length; i++) {
+    for (let j = 0; j < 3; j++) {
+      array.push(input[i])
+    }
+    // const newArray = array.replace(",", " ")
+  } newString = array.toString()
+  // console.log(array);
+  console.log(newString);
+  for (let i = 0; i < 3; i++) {
+    secondArray.push(input)
+  } let secondString = secondArray.toString()
+  console.log(secondString);
+}
+output([0, 1, 2, 3, 4]);
